@@ -1,40 +1,76 @@
 {
-    "jobs": [
-      {
-        "id": 1,
-        "position": "Software Engineer",
-        "company": "Acme Corporation",
-        "location": "San Francisco, CA",
-        "status": "Open",
-        "type": "Full-time",
-        "dateApplied": "2022-01-01"
-      },
-      {
-        "id": 2,
-        "position": "Marketing Manager",
-        "company": "Big Marketing Agency",
-        "location": "New York, NY",
-        "status": "Closed",
-        "type": "Contract",
-        "dateApplied": "2021-12-15"
-      },
-      {
-        "id": 3,
-        "position": "Sales Representative",
-        "company": "Small Business Inc.",
-        "location": "Chicago, IL",
-        "status": "Open",
-        "type": "Part-time",
-        "dateApplied": "2022-02-01"
-      },
-      {
-        "id": 4,
-        "position": "Data Analyst",
-        "company": "Global Analytics Corp.",
-        "location": "London, UK",
-        "status": "Open",
-        "type": "Full-time",
-        "dateApplied": "2022-03-01"
-      }
-    ]
-  }
+  "jobs": [
+    {
+      "id": 1,
+      "position": "Software Engineer",
+      "company": "Acme Corporation",
+      "location": "San Francisco, CA",
+      "status": "Open",
+      "type": "Full-time",
+      "dateApplied": "2022-01-01"
+    },
+    {
+      "id": 2,
+      "position": "Marketing Manager",
+      "company": "Big Marketing Agency",
+      "location": "New York, NY",
+      "status": "Closed",
+      "type": "Contract",
+      "dateApplied": "2021-12-15"
+    },
+    {
+      "id": 3,
+      "position": "Sales Representative",
+      "company": "Small Business Inc.",
+      "location": "Chicago, IL",
+      "status": "Interview",
+      "type": "Part-time",
+      "dateApplied": "2022-02-01"
+    },
+    {
+      "id": 4,
+      "position": "Data Analyst",
+      "company": "Global Analytics Corp.",
+      "location": "London, UK",
+      "status": "Open",
+      "type": "Full-time",
+      "dateApplied": "2022-03-01"
+    },
+    {
+      "id": 5,
+      "position": "Marketing Manager",
+      "company": "ABC Enterprises",
+      "location": "New York, NY",
+      "status": "Open",
+      "type": "Full-time",
+      "dateApplied": "2022-02-15"
+    },
+    {
+      "id": 6,
+      "position": "Graphic Designer",
+      "company": "XYZ Agency",
+      "location": "Los Angeles, CA",
+      "status": "Closed",
+      "type": "Freelance",
+      "dateApplied": "2022-03-01"
+    },
+    {
+      "id": 7,
+      "position": "Accountant",
+      "company": "123 Accounting Firm",
+      "location": "Chicago, IL",
+      "status": "Open",
+      "type": "Part-time",
+      "dateApplied": "2022-04-05"
+    },
+    {
+      "id": 8,
+      "position": "Human Resources Generalist",
+      "company": "LMN Corporation",
+      "location": "Seattle, WA",
+      "status": "Open",
+      "type": "Full-time",
+      "dateApplied": "2022-05-10"
+    }
+  ]
+}
