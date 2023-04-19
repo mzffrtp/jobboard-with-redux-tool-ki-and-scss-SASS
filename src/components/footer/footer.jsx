@@ -6,8 +6,8 @@ export default function Footer () {
         <footer>
             <h3>&copy; muzaffer t 2023</h3>
             <div>
-                <Link to={"https://www.linkedin.com/in/mzffrtp/"}><i class="fa-brands fa-linkedin"></i></Link>
-                <Link to={"https://github.com/mzffrtp"}><i class="fa-brands fa-github"></i></Link>
+                <Link to={"https://www.linkedin.com/in/mzffrtp/"}><i className="fa-brands fa-linkedin"></i></Link>
+                <Link to={"https://github.com/mzffrtp"}><i className="fa-brands fa-github"></i></Link>
             </div>
         </footer>
     )

@@ -14,7 +14,7 @@ a{
     font-weight: 500;
     color:#7E57C2;
     text-decoration: none;
-    font-size: 1.1rem;
+    font-size: 1.2rem;
 }
 
 i {
@@ -26,8 +26,22 @@ a:hover {
     color: #BA68C8;
 }
 
-h1{
+h2{
     font-size: 2rem;
+    background-image: linear-gradient(
+        transparent 0%,
+        transparent 90%,
+        hotpink 90%,
+        hotpink 100%,
+    );
+    background-repeat: no-repeat;
+    background-size: 0% 100%;
+    background-position-x:right;
+}
+
+h2:hover {
+    background-size: 100% 100%;
+    background-position-x:left;
 }
 
 button{
@@ -72,4 +86,13 @@ footer {
         display: flex;
         
     }
+}
+
+//List sections
+
+.listSection {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));
+    gap:5rem;
+    padding:3rem;
 }
