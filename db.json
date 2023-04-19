@@ -1,0 +1,40 @@
+{
+    "jobs": [
+      {
+        "id": 1,
+        "position": "Software Engineer",
+        "company": "Acme Corporation",
+        "location": "San Francisco, CA",
+        "status": "Open",
+        "type": "Full-time",
+        "dateApplied": "2022-01-01"
+      },
+      {
+        "id": 2,
+        "position": "Marketing Manager",
+        "company": "Big Marketing Agency",
+        "location": "New York, NY",
+        "status": "Closed",
+        "type": "Contract",
+        "dateApplied": "2021-12-15"
+      },
+      {
+        "id": 3,
+        "position": "Sales Representative",
+        "company": "Small Business Inc.",
+        "location": "Chicago, IL",
+        "status": "Open",
+        "type": "Part-time",
+        "dateApplied": "2022-02-01"
+      },
+      {
+        "id": 4,
+        "position": "Data Analyst",
+        "company": "Global Analytics Corp.",
+        "location": "London, UK",
+        "status": "Open",
+        "type": "Full-time",
+        "dateApplied": "2022-03-01"
+      }
+    ]
+  }
