@@ -75,7 +75,7 @@ export default function AddJob() {
                             })
                         }}
                     >
-                        <option value="">Status</option>
+                        <option value="All" hidden>All</option>
                         <option value="Interview">Interview</option>
                         <option value="Open">Open</option>
                         <option value="Closed">Closed</option>
@@ -90,7 +90,7 @@ export default function AddJob() {
                             })
                         }}
                     >
-                        <option value="">Type</option>
+                        <option value="All" hidden>All</option>
                         <option value="Tull time">Full time</option>
                         <option value="Part time">Part time</option>
                         <option value="Distans">Distans</option>

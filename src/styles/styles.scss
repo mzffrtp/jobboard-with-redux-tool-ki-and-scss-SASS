@@ -26,8 +26,8 @@ a:hover {
     color: #BA68C8;
 }
 
-h2 {
-    font-size: 2rem;
+a {
+    font-size: 1.3rem;
     background-image: linear-gradient(transparent 0%,
             transparent 90%,
             hotpink 90%,
@@ -38,7 +38,7 @@ h2 {
     background-position-x: right;
 }
 
-h2:hover {
+a:hover {
     background-size: 100% 100%;
     background-position-x: left;
 }
@@ -47,10 +47,10 @@ button {
     cursor: pointer;
     font-weight: 500;
     font-size: 1.3rem;
-    width:10rem;
+    width: 10rem;
     border-radius: 1rem;
     background-color: #00CED1;
-    color:beige;
+    color: beige;
     border: none
 }
 
@@ -117,6 +117,14 @@ footer {
         font-weight: 900;
         text-align: center;
         color: #FF4081;
+
+        .letter {
+            background-color:#FF4081;
+            border-radius: 10px;
+            font-size: 2.3rem;
+            color:white;
+            padding: 0.5rem;
+        }
 
         p {
             height: 2.5rem;
@@ -209,13 +217,14 @@ footer {
 // add job section
 .addSec {
     max-width: 40rem;
-    margin: 30px auto;
+    margin: 1rem auto;
     box-shadow: #BA68C8 0 3rem 7rem 0.5rem;
-    padding:2rem;
+    padding: 2rem;
 
-    h2{
+    h2 {
         text-align: center;
     }
+
     .inputs {
         display: grid;
         grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
@@ -225,29 +234,43 @@ footer {
 
         .inputField {
             padding: 0.5rem;
+            display: grid;
+            place-items: center;
 
-            input{
-                padding: 0.5rem  1rem;
+            input {
+                padding: 0.5rem 1rem;
                 margin: 1rem 0rem;
                 border-radius: 0.5rem;
                 border: none;
             }
-            
+
             label {
-                margin-right: 1rem;
+                letter-spacing: 3px;
+
             }
 
             select {
                 padding: 1rem;
                 font-size: 2rem;
-                width: 7.3rem;
+                width: 10rem;
                 margin: 1rem 0;
             }
         }
 
-        button{
+        button {
             height: 3rem;
-            margin: 1rem auto;
+            align-self: center;
+        }
+    }
+}
+
+// filter sextion
+
+.filterSec {
+    .inputField {
+        select {
+            margin: 0;
+            padding: 0;
         }
     }
 }

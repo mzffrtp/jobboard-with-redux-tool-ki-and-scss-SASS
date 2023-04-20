@@ -26,15 +26,15 @@ a:hover {
   color: #BA68C8;
 }
 
-h2 {
-  font-size: 2rem;
+a {
+  font-size: 1.3rem;
   background-image: linear-gradient(transparent 0%, transparent 90%, hotpink 90%, hotpink 100%);
   background-repeat: no-repeat;
   background-size: 0% 100%;
   background-position-x: right;
 }
 
-h2:hover {
+a:hover {
   background-size: 100% 100%;
   background-position-x: left;
 }
@@ -103,6 +103,13 @@ footer div {
   font-weight: 900;
   text-align: center;
   color: #FF4081;
+}
+.flip-card .title .letter {
+  background-color: #FF4081;
+  border-radius: 10px;
+  font-size: 2.3rem;
+  color: white;
+  padding: 0.5rem;
 }
 .flip-card .title p {
   height: 2.5rem;
@@ -177,7 +184,7 @@ footer div {
 
 .addSec {
   max-width: 40rem;
-  margin: 30px auto;
+  margin: 1rem auto;
   box-shadow: #BA68C8 0 3rem 7rem 0.5rem;
   padding: 2rem;
 }
@@ -193,6 +200,8 @@ footer div {
 }
 .addSec .inputs .inputField {
   padding: 0.5rem;
+  display: grid;
+  place-items: center;
 }
 .addSec .inputs .inputField input {
   padding: 0.5rem 1rem;
@@ -201,15 +210,20 @@ footer div {
   border: none;
 }
 .addSec .inputs .inputField label {
-  margin-right: 1rem;
+  letter-spacing: 3px;
 }
 .addSec .inputs .inputField select {
   padding: 1rem;
   font-size: 2rem;
-  width: 7.3rem;
+  width: 10rem;
   margin: 1rem 0;
 }
 .addSec .inputs button {
   height: 3rem;
-  margin: 1rem auto;
+  align-self: center;
+}
+
+.filterSec .inputField select {
+  margin: 0;
+  padding: 0;
 }/*# sourceMappingURL=styles.css.map */

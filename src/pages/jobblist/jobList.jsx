@@ -3,12 +3,12 @@ import { useDispatch, useSelector } from "react-redux";
 import useApi from "../../components/hooks/useApi";
 import { setJobs } from "../../redux/jobSlice";
 import { toast } from "react-toastify"
+import Filter from "../../components/filter/filter";
 
 export default function JobbList() {
     const api = useApi();
     const dispatch = useDispatch();
     const { jobState } = useSelector(state => state);
-    console.log(jobState);
 
     useEffect(() => {
         api
@@ -32,7 +32,8 @@ export default function JobbList() {
     }, [])
     return (
         <>
-            <h3 className="jobCount">{jobState.jobs.length} jobs found</h3>
+            <Filter />
+            <h3 className="jobCount">{jobState.filteredJobs.length} jobs found</h3>
             <section className="listSection">
                 {
                     !jobState.initialized ? (
@@ -53,15 +54,15 @@ export default function JobbList() {
                         </>
 
                     ) : (
-                        jobState.jobs.map((job, id) =>
+                        jobState.filteredJobs.map((job, id) =>
                             <div key={id}>
-
                                 <div className="flip-card">
                                     <div className="flip-card-inner">
                                         <div className="flip-card-front">
                                             <div className="title">
-                                                    <p>{job.position}</p>
-                                                    <p>{job.company}</p>
+                                                <p> <span className="letter">{job.company[0]}</span></p>
+                                                <p>{job.position}</p>
+                                                <p>{job.company}</p>
                                             </div>
                                             <div className="status">
                                                 <p className={job.status}>{job.status}</p>
@@ -69,18 +70,17 @@ export default function JobbList() {
                                         </div>
                                         <div className="flip-card-back">
                                             <div className="field">
-                                            <i className="fa-solid fa-location-dot"></i>
+                                                <i className="fa-solid fa-location-dot"></i>
                                                 <p>{job.location}</p>
                                             </div>
                                             <div className="field">
-                                            <i className="fa-regular fa-calendar"></i>
+                                                <i className="fa-regular fa-calendar"></i>
                                                 <p>{job.dateApplied}</p>
                                             </div>
                                             <div className="field">
-                                            <i className="fa-solid fa-briefcase"></i>
+                                                <i className="fa-solid fa-briefcase"></i>
                                                 <p>{job.type}</p>
                                             </div>
-                                            
                                         </div>
                                     </div>
                                 </div>
