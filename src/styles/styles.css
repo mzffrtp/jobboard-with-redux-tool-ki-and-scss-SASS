@@ -42,8 +42,12 @@ h2:hover {
 button {
   cursor: pointer;
   font-weight: 500;
+  font-size: 1.3rem;
+  width: 10rem;
   border-radius: 1rem;
   background-color: #00CED1;
+  color: beige;
+  border: none;
 }
 
 button:hover {
@@ -118,7 +122,8 @@ footer div {
 .flip-card .flip-card-inner:hover {
   transform: rotateY(180deg);
 }
-.flip-card .flip-card-front, .flip-card .flip-card-back {
+.flip-card .flip-card-front,
+.flip-card .flip-card-back {
   box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
   position: absolute;
   display: flex;
@@ -168,4 +173,43 @@ footer div {
 .flip-card .flip-card-back .field i {
   margin-bottom: 1rem;
   width: 3rem;
+}
+
+.addSec {
+  max-width: 40rem;
+  margin: 30px auto;
+  box-shadow: #BA68C8 0 3rem 7rem 0.5rem;
+  padding: 2rem;
+}
+.addSec h2 {
+  text-align: center;
+}
+.addSec .inputs {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1rem;
+  padding: 1rem;
+  margin-top: 0.5rem;
+}
+.addSec .inputs .inputField {
+  padding: 0.5rem;
+}
+.addSec .inputs .inputField input {
+  padding: 0.5rem 1rem;
+  margin: 1rem 0rem;
+  border-radius: 0.5rem;
+  border: none;
+}
+.addSec .inputs .inputField label {
+  margin-right: 1rem;
+}
+.addSec .inputs .inputField select {
+  padding: 1rem;
+  font-size: 2rem;
+  width: 7.3rem;
+  margin: 1rem 0;
+}
+.addSec .inputs button {
+  height: 3rem;
+  margin: 1rem auto;
 }/*# sourceMappingURL=styles.css.map */
