@@ -10,7 +10,7 @@ export default function Filter() {
         <section className="filterSec addSec">
             <h2>Search</h2>
             <div className="inputs">
-                <div className="inputField">
+                <div className="inputField inputCompany">
                     <label>Company: </label>
                     <input type="text"
                     ref={companyInput}

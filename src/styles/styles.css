@@ -94,7 +94,7 @@ footer div {
 .flip-card {
   background-color: transparent;
   width: 190px;
-  height: 254px;
+  height: 20rem;
   perspective: 1000px;
   font-family: sans-serif;
 }
@@ -183,7 +183,7 @@ footer div {
 }
 
 .addSec {
-  max-width: 40rem;
+  max-width: 60rem;
   margin: 1rem auto;
   box-shadow: #BA68C8 0 3rem 7rem 0.5rem;
   padding: 2rem;
@@ -193,24 +193,23 @@ footer div {
 }
 .addSec .inputs {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1rem;
   padding: 1rem;
-  margin-top: 0.5rem;
 }
 .addSec .inputs .inputField {
-  padding: 0.5rem;
   display: grid;
   place-items: center;
+  width: 10rem;
 }
 .addSec .inputs .inputField input {
   padding: 0.5rem 1rem;
-  margin: 1rem 0rem;
   border-radius: 0.5rem;
   border: none;
 }
 .addSec .inputs .inputField label {
   letter-spacing: 3px;
+  margin: 0.5rem;
 }
 .addSec .inputs .inputField select {
   padding: 1rem;
@@ -221,9 +220,23 @@ footer div {
 .addSec .inputs button {
   height: 3rem;
   align-self: center;
+  margin-top: 2rem;
+  width: 10.8rem;
 }
 
-.filterSec .inputField select {
-  margin: 0;
-  padding: 0;
+.filterSec {
+  max-width: 70rem;
+}
+
+.filterSec button {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 560px) {
+  .filterSec {
+    max-width: 16rem;
+  }
+  .addSec {
+    max-width: 16rem;
+  }
 }/*# sourceMappingURL=styles.css.map */

@@ -26,11 +26,11 @@ export default function AddJob() {
         }
         api
             .post("/jobs", form)
-            .then(()=>{
-                showSuccessAlert("Success","New job added succesfully!")
+            .then(() => {
+                showSuccessAlert("Success", "New job added succesfully!")
                 navigate("/")
             })
-            .catch(()=>{
+            .catch(() => {
                 showErrorAlert("Error", "Something went wrong!")
             })
     }
