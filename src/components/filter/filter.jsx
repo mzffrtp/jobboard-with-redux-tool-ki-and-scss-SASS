@@ -49,7 +49,7 @@ export default function Filter() {
                 </div>
                 <button onClick={()=>{
                     dispatch(resetFilter())
-                }}>Clear</button>
+                }}><i class="fa-solid fa-eraser"></i>Clear</button>
             </div>
         </section>
     )

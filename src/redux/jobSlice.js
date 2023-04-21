@@ -6,7 +6,6 @@ const initialState = {
     initialized: false
 }
 
-
 const jobSlice = createSlice({
     name: "jobSlice",
     initialState,

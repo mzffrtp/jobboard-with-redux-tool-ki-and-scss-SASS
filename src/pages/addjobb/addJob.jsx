@@ -99,7 +99,7 @@ export default function AddJob() {
                 </div>
                 <button type="submit"
                     onClick={handleFormSubmit}
-                >Add</button>
+                ><i class="fa-regular fa-square-plus"></i>Add</button>
             </div>
         </section>
     )

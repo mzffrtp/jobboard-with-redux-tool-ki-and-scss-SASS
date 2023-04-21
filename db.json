@@ -71,6 +71,24 @@
       "status": "Open",
       "type": "Full-time",
       "dateApplied": "2022-05-10"
+    },
+    {
+      "id": 1682067437922,
+      "position": "Frontend developer",
+      "company": "Ericson",
+      "location": "Stockholm",
+      "status": "Open",
+      "type": "Part time",
+      "dateApplied": "21/04/2023"
+    },
+    {
+      "id": 1682068059169,
+      "position": "Frontend developer",
+      "company": "Self own",
+      "location": "Stockholm",
+      "status": "Open",
+      "type": "Distans",
+      "dateApplied": "21/04/2023"
     }
   ]
 }
